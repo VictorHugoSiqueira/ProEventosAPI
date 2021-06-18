@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProEventos.API.Persistence;
 using ProEventos.Domain;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +11,9 @@ namespace ProEventos.API.Controllers
     public class EventoController : ControllerBase
     {
 
-        private readonly ProEventosContext _context;
+        private readonly Persistence.ProEventosContext _context;
 
-        public EventoController(ProEventosContext context)
+        public EventoController(Persistence.ProEventosContext context)
         {
             _context = context;
         }
