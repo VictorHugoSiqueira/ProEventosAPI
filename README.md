@@ -1,9 +1,5 @@
 # ProEventosAPI
 
-
-#  Gama Academy Desafio #3 VTEX IO
-https://github.com/VictorHugoSiqueira/desafioVTEX
-
 # Sobre o projeto
 
 contruindo uma API REST com modelo DDD(Domain Driven Design) onde os diretórios estão bem organizados por camadas.
